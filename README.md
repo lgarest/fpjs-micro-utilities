@@ -1,7 +1,7 @@
 # fpjs-micro-utilities
 Micro utilities to improve your functional programming in modern javascript knowledge
 
-To run the tests just
+To run the tests using Jest just run
 ```
 yarn test
 ```
