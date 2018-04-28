@@ -10,9 +10,9 @@ const apply = f => a => f(...a);
  * @param  {fn} f
  * @return {any}   result of the execution of f over the argument
  */
-const unApply = f => (...a) => f(a);
+const unapply = f => (...a) => f(a);
 
 module.exports = {
   apply,
-  unApply,
+  unapply,
 };
