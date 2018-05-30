@@ -28,6 +28,7 @@ const pointFree = identity;
  * Wrapper around console.log hard binding the console context
  * @type {any}
  */
+/* eslint-disable-next-line no-console */
 const log = console.log.bind(console);
 
 module.exports = {
